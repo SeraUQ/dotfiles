@@ -1,0 +1,57 @@
+/*body, a, header, menu, nav, footer, div, input, form, button, div:after, div:before{
+	background: #222222 !important;
+	color: #BC2F3F !important;
+	background-image: none !important;
+} */
+.theme-light {
+	--background-primary: #F2F2F2;
+	--background-secondary: #F2F2F2;
+	--background-secondary-alt: #F2F2F2;
+	--background-tertiary: #F2F2F2;
+	--background-floating: #F2F2F2;
+	--background-mobile-primary: #F2F2F2;
+	--background-mobile-secondary: #F2F2F2;
+	--channeltextarea-background: #F2F2F2;
+	--activity-card-background: #F2F2F2;
+	--deprecated-quickswitcher-input-background: #F2F2F2;
+	--header-primary: #BC2F3F;
+	--text-normal: #000000;
+}
+/*.theme-dark {
+	--background-primary: #222222;
+	--background-secondary: #222222;
+	--background-secondary-alt: #222222;
+	--background-tertiary: #222222;
+	--channeltextarea-background: #222222;
+	--header-primary: #BC2F3F;
+}
+html:not(.style-scope){
+	--yt-spec-white-2:#222222;
+	--yt-white: #222222;
+	--yt-spec-white-1:#222222;
+	--yt-spec-general-background-a:#222222;
+	--yt-spec-general-background-b:#222222;
+	--yt-spec-general-background-c:#222222;
+	--yt-spec-text-primary:#BC2F3F;
+	--light-theme-background-color:#222222;
+	--dark-theme-base-color: #222222;
+	--primary-text-color: #BC2F3F;
+	--yt-swatch-textbox-bg: #222222;
+	--yt-live-chat-primary-text-color: #BC2F3F;
+	--yt-spec-brand-background-solid: #222222;
+	--ytd-searchbox-legacy-button-color: #BC2F3F;
+	--yt-channel-header-background: #222222;
+	--yt-searchbox-text-color: #BC2F3F;
+	--yt-playlist-background-header: #222222;
+	--ytd-searchbox-legacy-button-border-color:#BC2F3F;
+	--ytd-video-game-watch-card-logo-color: #BC2F3F;
+	--ytd-searchbox-border-color: transparent;
+	--ytd-searchbox-legacy-border-color: transparent;
+	--ytd-searchbox-legacy-border-shadow-color: transparent;
+	--ytd-searchbox-border-shadow-color: transparent;
+}
+.style-scope {
+	background: #222222;
+	color: #BC2F3F;
+}
+*/
