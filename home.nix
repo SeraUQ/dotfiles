@@ -3,18 +3,16 @@
 {
   imports = [
     ./packages.nix
-    #./modules/qutebrowser.nix
     ./modules/bash.nix
     ./modules/nvim.nix
     ./modules/tmux.nix
     ./modules/git.nix
     ./modules/dunst.nix
-    #./modules/alacritty.nix
   ];
 
   nixpkgs.config = {
     allowUnfree = true;
-        nativeOnly = true;
+    nativeOnly = true;
   };
 
   # Shell Options
@@ -33,9 +31,6 @@
     )
   ];
 
-  programs.direnv.enable = true;
-  programs.direnv.enableNixDirenvIntegration = true;
-  
   services.gpg-agent = {
     enable = true;
     defaultCacheTtl = 1800;
