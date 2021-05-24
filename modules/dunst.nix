@@ -7,6 +7,7 @@ services.dunst = {
   settings = {
     global = {
       geometry = "300x5-30+20";
+      follow = "keyboard";
       shrink = false;
       notification_height = 0;
       separator_height = 2;
