@@ -6,6 +6,7 @@
     st dmenu dwm
     wget
     htop xclip
+    godot
     numix-icon-theme-circle gnome3.adwaita-icon-theme gnome3.gsettings-desktop-schemas
     maim
     ripcord discord
@@ -16,6 +17,7 @@
     dotnet-sdk_5
     lutris 
     libnotify
+    libreoffice-fresh
     autoconf
     xf86_input_wacom
     colorpicker

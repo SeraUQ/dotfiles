@@ -27,7 +27,7 @@
         dwm = super.dwm.overrideAttrs (_: {
           patches = [ ./modules/dwm-mypatch.diff ];
         });
-      }
+     }
     )
   ];
 
