@@ -23,5 +23,6 @@
     colorpicker
     zathura sxiv
     unrar unzip p7zip
+    openjdk11
   ];
 }
