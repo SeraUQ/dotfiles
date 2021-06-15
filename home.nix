@@ -8,6 +8,7 @@
     ./modules/tmux.nix
     ./modules/git.nix
     ./modules/dunst.nix
+    ./modules/bspwm.nix
   ];
 
   nixpkgs.config = {
