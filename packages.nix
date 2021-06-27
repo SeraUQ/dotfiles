@@ -9,6 +9,7 @@
     godot
     numix-icon-theme-circle gnome3.adwaita-icon-theme gnome3.gsettings-desktop-schemas
     maim
+    imagemagick
     ripcord discord
     file
     mpv ffmpeg
