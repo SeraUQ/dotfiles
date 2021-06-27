@@ -9,6 +9,8 @@
     ./modules/git.nix
     ./modules/dunst.nix
     ./modules/bspwm.nix
+    ./modules/sxhkd.nix
+    ./modules/scripts.nix
   ];
 
   nixpkgs.config = {
