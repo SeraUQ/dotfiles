@@ -27,7 +27,9 @@
       mv = "mv -v";
       cp = "cp -v";
 
-      gc= "git clone";
+      gc = "git clone";
+
+      rad= "mpv --volume=30 https://r-a-d.io/main.mp3";
     };
 
     initExtra = ''
