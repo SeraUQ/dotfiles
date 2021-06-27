@@ -25,9 +25,16 @@
 
     echo $kaomoji | xclip -selection clipboard
   '';
+
+  screenshot = pkgs.writeScriptBin "screenshot" ''
+    #!/usr/bin/env bash
+
+    maim -s "$(date +%s).png"
+  '';
 in {
   home.packages = [ 
     kaomoji-rofi
     kaomoji-dmenu
+    screenshot
   ];
 }

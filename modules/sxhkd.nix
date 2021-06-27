@@ -8,6 +8,7 @@
       "super + {_, shift + } {1-5,0}" = "bspc {desktop -f, node -d} '^{1-5,10}'";
       "super + Escape" = "	pkill -USR1 -x sxhkd";
       "super + e" = "kaomoji-dmenu";
+      "super + s" = "screenshot";
     };
   };
 }
