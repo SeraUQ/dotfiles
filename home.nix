@@ -3,6 +3,7 @@
 {
   imports = [
     ./packages.nix
+    ./modules/alacritty.nix
     ./modules/bash.nix
     ./modules/nvim.nix
     ./modules/tmux.nix
