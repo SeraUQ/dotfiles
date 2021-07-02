@@ -6,8 +6,8 @@
     settings = {
       colors = {
         primary = {
-          background =  "#c5c8c6";
-          foreground = "#1d1f21";
+          background =  "#ffffff";
+          foreground = "#222222";
         };
         normal = {
           black = "#282a2e";
