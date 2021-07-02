@@ -31,10 +31,29 @@
 
     maim -s "$(date +%s).png"
   '';
+  
+  screenshot-clipboard = pkgs.writeScriptBin "screenshot-clipboard" ''
+    #!/usr/bin/env bash
+
+    maim -s | xclip -selection clipboard -t image/png
+  '';
+
+  notify-info = pkgs.writeScriptBin "notify-info" ''
+    case $1 in
+      "time") info="$(date)"
+        ;;
+      "weather") info="$(curl -s wttr.in/Valjevo?format=3)"
+    esac
+
+    notify-send "$info"
+  '';
+
 in {
   home.packages = [ 
     kaomoji-rofi
     kaomoji-dmenu
+    notify-info
     screenshot
+    screenshot-clipboard
   ];
 }
