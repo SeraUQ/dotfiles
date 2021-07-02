@@ -12,6 +12,7 @@
     imagemagick
     ripcord discord
     file
+    jetbrains.clion android-studio
     mpv ffmpeg
     pulsemixer
     gimp inkscape blender
