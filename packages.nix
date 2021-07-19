@@ -2,7 +2,7 @@
 
 {
   home.packages = with pkgs;[
-    firefox
+    anki
     st dmenu dwm
     wget
     htop xclip
@@ -13,6 +13,7 @@
     ripcord discord
     file
     jetbrains.clion android-studio
+    gcc gnumake cmake
     mpv ffmpeg
     pulsemixer
     gimp inkscape blender
