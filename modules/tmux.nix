@@ -10,6 +10,7 @@
     extraConfig = ''
       set -g status-style bg=white
       set -g status-style fg=black
+      set -g status off
 
       bind-key r source-file .tmux.conf
       bind-key C new-window -c "#{pane_current_path}"
