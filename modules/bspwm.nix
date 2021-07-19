@@ -8,10 +8,10 @@
       };
 
       rules = {
-        "firefox" = {
+        "Firefox" = {
           desktop = "^3";
         };
-        "ripcord" = {
+        "discord" = {
           desktop = "^2";
         };
       };
@@ -24,7 +24,7 @@
         "fcitx"
         "alacritty -e tmux "
         "firefox "
-        "ripcord"
+        "Discord"
       ];
 
       settings = {
