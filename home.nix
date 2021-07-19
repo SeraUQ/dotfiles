@@ -5,6 +5,8 @@
     ./packages.nix
     ./modules/alacritty.nix
     ./modules/bash.nix
+    ./modules/chromium.nix
+    ./modules/firefox.nix
     ./modules/nvim.nix
     ./modules/tmux.nix
     ./modules/git.nix
